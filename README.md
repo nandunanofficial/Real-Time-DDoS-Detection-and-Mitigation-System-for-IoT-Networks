@@ -299,7 +299,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Contact Information
 - **Project Maintainers**: Nanda Kumar V
 - **Email**: nandunan264@gmail.com
-- **GitHub**: nandunanofficial
+- **GitHub**: @nandunanofficial
 
 ## 🗺️ Roadmap
 
