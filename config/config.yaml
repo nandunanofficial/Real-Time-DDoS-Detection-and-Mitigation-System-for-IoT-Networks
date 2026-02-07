@@ -1,0 +1,71 @@
+# Information Security Analysis Tool Configuration
+
+# Scanner Settings
+scanner:
+  default_ports: [21, 22, 23, 25, 53, 80, 110, 143, 443, 993, 995, 3389, 5432, 3306]
+  timeout: 5
+  max_retries: 3
+
+# Vulnerability Assessment
+vulnerability:
+  cvss_threshold: 4.0
+  check_web_vulnerabilities: true
+  check_ssl_certificates: true
+  check_open_ports: true
+
+# Security Audit Settings
+audit:
+  check_file_permissions: true
+  check_password_policy: true
+  check_network_security: true
+  check_software_updates: true
+  scan_directories:
+    - "/etc"
+    - "/var/log"
+    - "/home"
+    - "/usr/local"
+
+# Risk Assessment Settings
+risk_assessment:
+  default_likelihood: "possible"
+  default_impact: "moderate"
+  asset_value_threshold: 50
+  mitigation_effectiveness: 0.7
+
+# Reporting Settings
+reporting:
+  output_format: ["html", "markdown"]
+  include_detailed_findings: true
+  include_recommendations: true
+  include_compliance_matrix: true
+  template_directory: "templates"
+
+# Compliance Standards
+compliance:
+  frameworks:
+    - "cis_controls"
+    - "nist_framework"
+    - "iso27001"
+    - "gdpr"
+  
+  cis_controls_version: "v8"
+  nist_framework_version: "2.0"
+
+# Logging Settings
+logging:
+  level: "INFO"
+  file: "logs/security_tool.log"
+  max_size: "10MB"
+  backup_count: 5
+
+# Security Settings
+security:
+  encrypt_reports: false
+  secure_storage: true
+  access_control: true
+
+# Performance Settings
+performance:
+  max_concurrent_scans: 5
+  scan_timeout: 300
+  report_generation_timeout: 60
