@@ -297,9 +297,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Security Concerns**: Report security vulnerabilities privately
 
 ### Contact Information
-- **Project Maintainers**: [Your Name/Team]
-- **Email**: [your.email@example.com]
-- **GitHub**: [@yourusername]
+- **Project Maintainers**: Nanda Kumar V
+- **Email**: nandunan264@gmail.com
+- **GitHub**: nandunanofficial
 
 ## 🗺️ Roadmap
 
